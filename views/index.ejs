@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= name %>'s WebPage
+    	My birthday is <%= date %>
+    </p>
+
+    <form action="/username" method="post">
+    <input type="text" name="name" value="type your name">
+    <input type="submit" value="Done!">
+    </form>
+
+  </body>
+</html>
